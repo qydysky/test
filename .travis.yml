@@ -1,4 +1,4 @@
 language: go
-script: go test
+script: go test && bash <(curl -s https://codecov.io/bash)
 notifications:
   email: false
